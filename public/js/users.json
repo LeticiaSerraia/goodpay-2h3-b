@@ -1,0 +1,162 @@
+[
+    {
+        "nome": "Victor Icoma",
+        "phone": "(16)98855.3562",
+        "email": "victor.icoma@gmail.com",
+        "senha": "123456",
+        "cod": 1,
+        "created_at": "06-06-2026"
+    },
+    {
+        "nome": "Ana Carla Salomão",
+        "phone": "(16)99123.4567",
+        "email": "ana.salomao@email.com",
+        "senha": "senhaSegura1",
+        "cod": 2,
+        "created_at": "06-06-2026"
+    },
+    {
+        "nome": "Letícia Gomes Icoma",
+        "phone": "(16)99876.5432",
+        "email": "leticia.icoma@email.com",
+        "senha": "literatura2026",
+        "cod": 3,
+        "created_at": "07-06-2026"
+    },
+    {
+        "nome": "Taís Cristina Fernandes",
+        "phone": "(16)99765.4321",
+        "email": "tais.cristina@email.com",
+        "senha": "jaboticabal123",
+        "cod": 4,
+        "created_at": "07-06-2026"
+    },
+    {
+        "nome": "Igor Souza",
+        "phone": "(16)99654.3210",
+        "email": "igor.diretor@email.com",
+        "senha": "escolaArte99",
+        "cod": 5,
+        "created_at": "07-06-2026"
+    },
+    {
+        "nome": "Yasmin Silva",
+        "phone": "(16)99543.2109",
+        "email": "yasmin.s@email.com",
+        "senha": "yasmim2026",
+        "cod": 6,
+        "created_at": "08-06-2026"
+    },
+    {
+        "nome": "Ana Maria Salomão",
+        "phone": "(16)99432.1098",
+        "email": "ana.maria@email.com",
+        "senha": "avomaterna1",
+        "cod": 7,
+        "created_at": "08-06-2026"
+    },
+    {
+        "nome": "Barbara Faria",
+        "phone": "(16)99321.0987",
+        "email": "barbara.faria@email.com",
+        "senha": "sobri1234",
+        "cod": 8,
+        "created_at": "08-06-2026"
+    },
+    {
+        "nome": "Caroline Mendes",
+        "phone": "(16)99210.9876",
+        "email": "caroline.mendes@email.com",
+        "senha": "carol987",
+        "cod": 9,
+        "created_at": "08-06-2026"
+    },
+    {
+        "nome": "Vitória Lima",
+        "phone": "(16)99109.8765",
+        "email": "vitoria.lima@email.com",
+        "senha": "vivi2026",
+        "cod": 10,
+        "created_at": "08-06-2026"
+    },
+    {
+        "nome": "Samara Rocha",
+        "phone": "(16)99098.7654",
+        "email": "samara.rocha@email.com",
+        "senha": "samaroca1",
+        "cod": 11,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Arthur Santos",
+        "phone": "(16)98987.6543",
+        "email": "arthur.santos@email.com",
+        "senha": "arthur123",
+        "cod": 12,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Theo Oliveira",
+        "phone": "(16)98876.5432",
+        "email": "theo.oliveira@email.com",
+        "senha": "theo999",
+        "cod": 13,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Fernando Rezende",
+        "phone": "(16)98765.4321",
+        "email": "fernando.rezende@fatec.edu.br",
+        "senha": "professor2026",
+        "cod": 14,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Beatriz Arena",
+        "phone": "(16)98654.3210",
+        "email": "beatriz.arena@email.com",
+        "senha": "bia12345",
+        "cod": 15,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Lucas Caliman",
+        "phone": "(16)98543.2109",
+        "email": "lucas.caliman@email.com",
+        "senha": "tech2026",
+        "cod": 16,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Bruna Pimenta",
+        "phone": "(16)98432.1098",
+        "email": "bruna.pimenta@email.com",
+        "senha": "bruna123",
+        "cod": 17,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Alan Jeferson",
+        "phone": "(16)98321.0987",
+        "email": "alan.jeferson@email.com",
+        "senha": "alan0001",
+        "cod": 18,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Fernando Sampaio",
+        "phone": "(16)98210.9876",
+        "email": "fernando.sampaio@email.com",
+        "senha": "sampaio26",
+        "cod": 19,
+        "created_at": "09-06-2026"
+    },
+    {
+        "nome": "Gabrieli Martins",
+        "phone": "(16)98109.8765",
+        "email": "gabrieli.martins@email.com",
+        "senha": "gabi1234",
+        "cod": 20,
+        "created_at": "09-06-2026"
+    }
+]
