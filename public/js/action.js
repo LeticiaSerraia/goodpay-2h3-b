@@ -48,3 +48,18 @@ function openAboutUs(evt, pageName) {
     document.getElementById(pageName).style.display = "block";
     evt.currentTarget.classList.add("w3-light-grey");
 }
+
+async function loginuser() {
+    email = document.getElementById('u_email').value
+    password = documet.getElementById('password').value
+     
+    try{
+        const response = await fetch('./js/users.json')
+        const user = await response.json()
+
+        const validateuser = users.find(u => u.email === email && u.password === password)
+    }catch(error){
+         console.log(error)
+    }
+}
+
