@@ -48,17 +48,41 @@ function openAboutUs(evt, pageName) {
     document.getElementById(pageName).style.display = "block";
     evt.currentTarget.classList.add("w3-light-grey");
 }
-
-async function loginUser() {
+async function loginGoodPay() {
     email = document.getElementById('login').value
     password = document.getElementById('password').value
 
-    try{
-        const response = await fetch('./js/users.json')
+    try {
+        const response = await fetch('./js/user.json')
         const users = await response.json()
 
-        const validatedUser = users.find(u => u.email === email && u.password === password)
-    }catch(error){
+        const userValided = users.find(u => u.email === email && u.password === password)
+
+        if (userValided) {
+            window.location.href = './dashboard.html'
+            localStorage.setItem('email', email)
+        } else {
+            alert('Erro ao processar, Seu e-mail ou Senha estão incorretos')
+        }
+    } catch (error) {
         console.log(error)
+    }
+}
+
+async function loadUser() {
+    document.getElementById('nome-card').innerHTML = localStorage.email
+    document.getElementById('resumo').innerHTML = `<label>E-mail</label> ${localStorage.email}`
+}
+document.addEventListener('DOMContentLoaded', () => {
+    loadUser()
+})
+
+async function logoutUser() {
+    if (localStorage.email != null) {
+        localStorage.removeItem('email')
+        console.info('Sessão Limpa')
+        window.location.href = './index.html'
+    } else {
+        console.error('Sessão não Existe')
     }
 }

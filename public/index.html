@@ -20,26 +20,25 @@
     <header>
         <section name="menu-lateral">
             <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-                <img class="w3-image" src="./img/goodpay.png" alt="Logo do Menu">
+                <img src="./img/goodpay.png" alt="Letreiro GoodPay" class="w3-image">
                 <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">
                     <i class="material-icons">double_arrow</i>
                 </button>
                 <hr>
-                <form class="w3-container">
+                    <form class="w3-container">
 
-                    <label>E-mail</label>
-                    <input id="login" class="w3-input" type="text">
+                        <label>E-mail</label>
+                        <input class="w3-input" type="text" id="login" />
 
-                    <label>Senha</label>
-                    <input id="password" class="w3-input" type="password">
+                        <label>Senha</label>
+                        <input class="w3-input" type="password" id="password" />
 
-                </form>
-                <button class="w3-button w3-block w3-teal" style="margin-top: 20px;">Login GoodPay</button>
+                    </form>
+                    <button onclick="loginGoodPay()" class="w3-button w3-green w3-block" style="margin-top: 10px;">Entrar</button>
                 <hr>
-                <a href="#" class="w3-bar-item w3-button">Cofigurações</a>
-                <a href="#" class="w3-bar-item w3-button">
-                    <i class="material-icons">exit_to_app</i>
-                </a>
+                <a href="#" class="w3-bar-item w3-button">Configurações</a>
+                <hr>
+                <a href="#" class="w3-bar-item w3-button">Logout</a>
             </div>
         </section>
         <section name="navbar" class="menu">
@@ -66,7 +65,7 @@
                         <a href="#" onclick="document.getElementById('id01').style.display='block'">Sobre Nós</a>
                     </li>
                     <li style="float: right;">
-                        <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+                        <button class="w3-button w3-green w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
                     </li>
                 </ul>
             </nav>
@@ -476,7 +475,6 @@
                         <h2>Canal de Notícias</h2>
                     </header>
                     <div style="padding: 20px;">
-                        <!-- Elfsight RSS Feed | Noticias Goodpay -->
                         <script src="https://elfsightcdn.com/platform.js" async></script>
                         <div class="elfsight-app-f9ee57ad-4298-4698-8d0f-eb3a23c83fd2" data-elfsight-app-lazy></div>
                     </div>
@@ -501,7 +499,8 @@
         </section>
     </main>
     <footer>
-        <script src="./js/action.js"></script>
+        <script src="./js/action.js">
+        </script>
     </footer>
 </body>
 
